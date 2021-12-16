@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class soundNotes : MonoBehaviour {
-    public AudioClip[] aClips;
+   /* public AudioClip[] aClips;
     public AudioSource myAudioSource;
-    string btnName;
+    string btnName;*/
 
  // Use this for initialization
  void Start () {
-        myAudioSource = GetComponent<AudioSource>();
+        //myAudioSource = GetComponent<AudioSource>();
   
  }
  
  // Update is called once per frame
- void Update () {
+ void Update () {/*
       if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
@@ -57,7 +57,7 @@ public class soundNotes : MonoBehaviour {
 
                     }
                 }
-            }
+            }*/
         
      }
 }
